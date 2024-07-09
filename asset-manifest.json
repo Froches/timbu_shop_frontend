@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/timbu_shop_frontend/static/css/main.934392fa.css",
+    "main.js": "/timbu_shop_frontend/static/js/main.acab4678.js",
+    "static/media/homepic.png": "/timbu_shop_frontend/static/media/homepic.4cf0150e08d1327caada.png",
+    "static/media/slidepic.png": "/timbu_shop_frontend/static/media/slidepic.1844ea8f379bcae24afa.png",
+    "static/media/img1.png": "/timbu_shop_frontend/static/media/img1.d7e7673807b4fcac8b3e.png",
+    "static/media/img5.png": "/timbu_shop_frontend/static/media/img5.e4c04ae2e0037759ef03.png",
+    "index.html": "/timbu_shop_frontend/index.html",
+    "main.934392fa.css.map": "/timbu_shop_frontend/static/css/main.934392fa.css.map",
+    "main.acab4678.js.map": "/timbu_shop_frontend/static/js/main.acab4678.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.934392fa.css",
+    "static/js/main.acab4678.js"
+  ]
+}
