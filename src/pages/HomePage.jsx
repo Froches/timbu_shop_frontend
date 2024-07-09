@@ -1,4 +1,7 @@
 import React, { useEffect } from "react";
+import SlideOne from "../components/SlideOne";
+import NewArrivals from "../components/NewArrivals";
+import Categories from "../components/Categories";
 
 const HomePage = () => {
   useEffect(() => {
@@ -13,7 +16,9 @@ const HomePage = () => {
 
   return (
     <div>
-      <NavBar />
+      <SlideOne />
+      <NewArrivals />
+      <Categories />
     </div>
   );
 };
