@@ -1,12 +1,12 @@
 import React, { useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faAngleLeft,
   faTrashAlt,
   faAdd,
   faSubtract,
 } from "@fortawesome/free-solid-svg-icons";
 import img5 from "../media/img5.png";
+import { Link } from "react-router-dom";
 
 const CartPage = () => {
   useEffect(() => {
@@ -21,20 +21,13 @@ const CartPage = () => {
 
   return (
     <div className="relative min-h-screen mx-4">
-      <div className="grid grid-cols-2 gap-4 w-full my-10">
-        <div className="">
-          <FontAwesomeIcon
-            icon={faAngleLeft}
-            className="bg-[#F8F8F8] rounded-full w-10 h-10 p-2"
-          />
-        </div>
-        <div className="ml-[-180px]">
-          <h1 className="text-3xl text-center">My Cart</h1>
-        </div>
+      <div className="text-center my-10">
+        <h1 className="text-3xl text-center">Cart Summary</h1>
       </div>
+
       <div>
         <ul>
-          <li className="grid grid-cols-3 gap-1 w-full max-w-4xl">
+          <li className="grid grid-cols-3 gap-1 w-full max-w-4xl border-b border-gray-300">
             <div className="flex items-center justify-center">
               <img src={img5} alt="" className="w-[101px] h-[118px]" />
             </div>
@@ -56,7 +49,7 @@ const CartPage = () => {
               <FontAwesomeIcon icon={faTrashAlt} className="hover" />
             </div>
           </li>
-          <li className="grid grid-cols-3 gap-1 w-full max-w-4xl">
+          <li className="grid grid-cols-3 gap-1 w-full max-w-4xl border-b border-gray-300">
             <div className="flex items-center justify-center">
               <img src={img5} alt="" className="w-[101px] h-[118px]" />
             </div>
@@ -78,7 +71,7 @@ const CartPage = () => {
               <FontAwesomeIcon icon={faTrashAlt} />
             </div>
           </li>
-          <li className="grid grid-cols-3 gap-1 w-full max-w-4xl">
+          <li className="grid grid-cols-3 gap-1 w-full max-w-4xl border-b border-gray-300">
             <div className="flex items-center justify-center">
               <img src={img5} alt="" className="w-[101px] h-[118px]" />
             </div>
@@ -117,8 +110,8 @@ const CartPage = () => {
         </div>
       </div>
       <div className="flex items-center justify-center text-[#F8F8F8]">
-        <button className="bg-[#27489E] w-5/6 p-3 rounded-2xl my-10">
-          Check Out
+        <button className="bg-[#27489E] w-5/6 p-3 rounded-2xl my-10 font-bold hover:bg-[#F8F8F8] hover:text-[#27489E]">
+          <Link to={"/checkout"}>Check Out</Link>
         </button>
       </div>
     </div>

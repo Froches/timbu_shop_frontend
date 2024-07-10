@@ -3,6 +3,7 @@ import img5 from "../media/img5.png";
 import img1 from "../media/img1.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 const ProductSlide = () => {
   return (
@@ -15,8 +16,8 @@ const ProductSlide = () => {
               alt=""
               className="min-w-[197px] h-[230px] flex items-center justify-center"
             />
-            <h3>Winter Coat</h3>
-            <p>$51.0</p>
+            <Link to={'/details'}><h3>Winter Coat</h3>
+            <p>$51.0</p></Link>
             <div>
               <FontAwesomeIcon icon={faStar} className="text-[#F0E821]" />
               <FontAwesomeIcon icon={faStar} className="text-[#F0E821]" />
@@ -32,8 +33,8 @@ const ProductSlide = () => {
               alt=""
               className="min-w-[197px] h-[230px] flex items-center justify-center"
             />
-            <h3>Winter Coat</h3>
-            <p>$51.0</p>
+            <Link to={'/details'}><h3>Winter Coat</h3>
+            <p>$51.0</p></Link>
             <div>
               <FontAwesomeIcon icon={faStar} className="text-[#F0E821]" />
               <FontAwesomeIcon icon={faStar} className="text-[#F0E821]" />
@@ -49,8 +50,8 @@ const ProductSlide = () => {
               alt=""
               className="min-w-[197px] h-[230px] flex items-center justify-center"
             />
-            <h3>Winter Coat</h3>
-            <p>$51.0</p>
+            <Link to={'/details'}><h3>Winter Coat</h3>
+            <p>$51.0</p></Link>
             <div>
               <FontAwesomeIcon icon={faStar} className="text-[#F0E821]" />
               <FontAwesomeIcon icon={faStar} className="text-[#F0E821]" />
@@ -66,8 +67,8 @@ const ProductSlide = () => {
               alt=""
               className="min-w-[197px] h-[230px] flex items-center justify-center"
             />
-            <h3>Winter Coat</h3>
-            <p>$51.0</p>
+            <Link to={'/details'}><h3>Winter Coat</h3>
+            <p>$51.0</p></Link>
             <div>
               <FontAwesomeIcon icon={faStar} className="text-[#F0E821]" />
               <FontAwesomeIcon icon={faStar} className="text-[#F0E821]" />
@@ -83,8 +84,8 @@ const ProductSlide = () => {
               alt=""
               className="min-w-[197px] h-[230px] flex items-center justify-center"
             />
-            <h3>Winter Coat</h3>
-            <p>$51.0</p>
+            <Link to={'/details'}><h3>Winter Coat</h3>
+            <p>$51.0</p></Link>
             <div>
               <FontAwesomeIcon icon={faStar} className="text-[#F0E821]" />
               <FontAwesomeIcon icon={faStar} className="text-[#F0E821]" />
@@ -100,8 +101,8 @@ const ProductSlide = () => {
               alt=""
               className="min-w-[197px] h-[230px] flex items-center justify-center"
             />
-            <h3>Winter Coat</h3>
-            <p>$51.0</p>
+            <Link to={'/details'}><h3>Winter Coat</h3>
+            <p>$51.0</p></Link>
             <div>
               <FontAwesomeIcon icon={faStar} className="text-[#F0E821]" />
               <FontAwesomeIcon icon={faStar} className="text-[#F0E821]" />
@@ -117,8 +118,8 @@ const ProductSlide = () => {
               alt=""
               className="min-w-[197px] h-[230px] flex items-center justify-center"
             />
-            <h3>Winter Coat</h3>
-            <p>$51.0</p>
+            <Link to={'/details'}><h3>Winter Coat</h3>
+            <p>$51.0</p></Link>
             <div>
               <FontAwesomeIcon icon={faStar} className="text-[#F0E821]" />
               <FontAwesomeIcon icon={faStar} className="text-[#F0E821]" />
