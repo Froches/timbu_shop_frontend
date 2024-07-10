@@ -15,7 +15,7 @@ const CheckoutPage = () => {
     <div className="w-full min-h-screen">
       <div className="flex flex-col items-start justify-center m-4">
         <h3>Personal Information</h3>
-        <div className="border-2 border-[#27489E] flex flex-col rounded-lg p-4 mb-6 w-7/12">
+        <div className="border-2 border-[#27489E] flex flex-col rounded-lg p-4 mb-6 md:w-7/12">
           <div className="flex">
             <div className="m-4">
               <label htmlFor="fname">First Name</label>
@@ -53,7 +53,7 @@ const CheckoutPage = () => {
           </div>
         </div>
         <h3>Shipping Address</h3>
-        <div className="border-2 border-[#27489E] flex flex-col rounded-lg p-4 mb-6 w-7/12">
+        <div className="border-2 border-[#27489E] flex flex-col rounded-lg p-4 mb-6 md:w-7/12">
           <div className="m-4">
             <label htmlFor="address">Street address</label>
             <input
@@ -91,7 +91,7 @@ const CheckoutPage = () => {
           </div>
         </div>
         <h3>Payment Method</h3>
-        <div className="border-2 border-[#27489E] flex flex-col rounded-lg p-4 mb-6 w-7/12">
+        <div className="border-2 border-[#27489E] flex flex-col rounded-lg p-4 mb-6 md:w-7/12">
           <div className="flex">
             <div className="m-4">
               <input type="checkbox" className="mx-2" />

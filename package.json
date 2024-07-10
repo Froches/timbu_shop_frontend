@@ -1,7 +1,7 @@
 {
   "name": "timbu_shop_frontend",
   "version": "0.1.0",
-  "homepage": "https://Froches.github.io/timbu_shop_frontend",
+  "homepage": "https://Froches.github.io/timbu_shop_frontend/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.2",

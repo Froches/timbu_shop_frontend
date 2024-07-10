@@ -12,7 +12,7 @@ import CheckoutPage from "./pages/CheckoutPage";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/timbu_shop_frontend">
         <div>
           <NavBar />
         </div>
