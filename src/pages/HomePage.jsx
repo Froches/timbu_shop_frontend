@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import SlideOne from "../components/SlideOne";
 import NewArrivals from "../components/NewArrivals";
 import Categories from "../components/Categories";

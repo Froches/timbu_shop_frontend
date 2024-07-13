@@ -22,7 +22,8 @@ const CheckoutPage = () => {
               <input
                 type="text"
                 id="fname"
-                className="w-full p-2 border border-gray-300 rounded-md bg-[#D6D2D2] shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                className="w-full p-2 border border-gray-300 rounded-md bg-[#D6D2D2] shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500 "
+                required
               />
             </div>
             <div className="m-4">
@@ -30,7 +31,8 @@ const CheckoutPage = () => {
               <input
                 type="text"
                 id="lname"
-                className="w-full p-2 border border-gray-300 rounded-md bg-[#D6D2D2] shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                className="w-full p-2 border border-gray-300 rounded-md bg-[#D6D2D2] shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500 "
+                required
               />
             </div>
           </div>
@@ -40,7 +42,8 @@ const CheckoutPage = () => {
             <input
               type="email"
               id="email"
-              className="w-full p-2 border border-gray-300 rounded-md bg-[#D6D2D2] shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+              className="w-full p-2 border border-gray-300 rounded-md bg-[#D6D2D2] shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500 "
+              required
             />
           </div>
           <div className="m-4 flex flex-col">
@@ -48,7 +51,8 @@ const CheckoutPage = () => {
             <input
               type="number"
               id="number"
-              className="w-2/5 p-2 border border-gray-300 rounded-md bg-[#D6D2D2] shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+              className="w-2/5 p-2 border border-gray-300 rounded-md bg-[#D6D2D2] shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500 "
+              required
             />
           </div>
         </div>
@@ -59,7 +63,8 @@ const CheckoutPage = () => {
             <input
               type="address"
               id="address"
-              className="w-full p-2 border border-gray-300 rounded-md bg-[#D6D2D2] shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+              className="w-full p-2 border border-gray-300 rounded-md bg-[#D6D2D2] shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500 "
+              required
             />
           </div>
           <div className="flex">
@@ -68,7 +73,8 @@ const CheckoutPage = () => {
               <input
                 type="text"
                 id="state"
-                className="w-full p-2 border border-gray-300 rounded-md bg-[#D6D2D2] shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                className="w-full p-2 border border-gray-300 rounded-md bg-[#D6D2D2] shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500 "
+                required
               />
             </div>
             <div className="m-4">
@@ -76,7 +82,8 @@ const CheckoutPage = () => {
               <input
                 type="text"
                 id="city"
-                className="w-full p-2 border border-gray-300 rounded-md bg-[#D6D2D2] shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                className="w-full p-2 border border-gray-300 rounded-md bg-[#D6D2D2] shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500 "
+                required
               />
             </div>
           </div>
@@ -86,7 +93,8 @@ const CheckoutPage = () => {
             <input
               type="number"
               id="postal"
-              className="w-2/5 p-2 border border-gray-300 rounded-md bg-[#D6D2D2] shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+              className="w-2/5 p-2 border border-gray-300 rounded-md bg-[#D6D2D2] shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500 "
+              required
             />
           </div>
         </div>
@@ -108,7 +116,8 @@ const CheckoutPage = () => {
             <input
               type="text"
               id="cardname"
-              className="w-full p-2 border border-gray-300 rounded-md bg-[#D6D2D2] shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+              className="w-full p-2 border border-gray-300 rounded-md bg-[#D6D2D2] shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500 "
+              required
             />
           </div>
           <div className="m-4 flex flex-col">
@@ -116,7 +125,8 @@ const CheckoutPage = () => {
             <input
               type="number"
               id="cardnumber"
-              className="w-full p-2 border border-gray-300 rounded-md bg-[#D6D2D2] shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+              className="w-full p-2 border border-gray-300 rounded-md bg-[#D6D2D2] shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500 "
+              required
             />
           </div>
           <div className="flex">
@@ -125,7 +135,8 @@ const CheckoutPage = () => {
               <input
                 type="text"
                 id="expiry"
-                className="w-full p-2 border border-gray-300 rounded-md bg-[#D6D2D2] shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                className="w-full p-2 border border-gray-300 rounded-md bg-[#D6D2D2] shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500 "
+                required
               />
             </div>
             <div className="m-4">
@@ -133,14 +144,18 @@ const CheckoutPage = () => {
               <input
                 type="text"
                 id="cvc"
-                className="w-full p-2 border border-gray-300 rounded-md bg-[#D6D2D2] shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                className="w-full p-2 border border-gray-300 rounded-md bg-[#D6D2D2] shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500 "
+                required
               />
             </div>
           </div>
         </div>
 
-        <button className="bg-[#27489E] w-2/6 p-3 rounded-2xl my-20 text-[#F8F8F8] font-bold hover:bg-[#F8F8F8] hover:text-[#27489E] self-center">
-          <Link to={"payment"}>Pay Now</Link>
+        <button
+          className="bg-[#27489E] w-2/6 p-3 rounded-2xl my-20 text-[#F8F8F8] font-bold hover:bg-[#F8F8F8] hover:text-[#27489E] self-center"
+          type="submit"
+        >
+          <Link to={"/payment"}>Pay Now</Link>
         </button>
       </div>
     </div>

@@ -26,9 +26,9 @@ const NavBar = () => {
           <Link to={"/"}>
             <li className="mx-2">home</li>
           </Link>
-          <Link to={"/products"}>
+          <a href="#products">
             <li className="mx-2">products</li>
-          </Link>
+          </a>
           <Link to={"/cart"}>
             <li className="mx-2">carts</li>
           </Link>
@@ -55,11 +55,11 @@ const NavBar = () => {
               home
             </li>
           </Link>
-          <Link to={"/"}>
+          <a href="#products">
             <li className="bg-transparent w-2/4 p-2 m-1 hover:border-b-2 border-[#7491ad]">
               products
             </li>
-          </Link>
+          </a>
         </ul>
       ) : (
         <div className="hidden"></div>

@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import img5 from "../media/img5.png";
 
 const DetailsPage = () => {
@@ -53,9 +54,13 @@ const DetailsPage = () => {
           </div>
         </div>
         <div className="flex items-center justify-center text-[#F8F8F8]">
-          <button className="bg-[#27489E] w-5/6 p-3 rounded-full my-10 font-bold hover:bg-[#F8F8F8] hover:text-[#27489E]">
-            Add to Cart
-          </button>
+          <div className="w-5/6 p-3 my-10">
+            <Link to={'/cart'}>
+              <button className="bg-[#27489E] w-full p-3 rounded-full my-10 font-bold hover:bg-[#F8F8F8] hover:text-[#27489E]">
+                Add to Cart
+              </button>
+            </Link>
+          </div>
         </div>
       </div>
     </div>

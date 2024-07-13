@@ -8,6 +8,7 @@ import NavBar from "./components/NavBar";
 import NotFoundPage from "./pages/NotFoundPage";
 import Footer from "./components/Footer";
 import CheckoutPage from "./pages/CheckoutPage";
+import Payment from "./pages/Payment";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/cart" element={<CartPage />} />
           <Route path="/onboarding" element={<OnboardingPage />} />
           <Route path="/checkout" element={<CheckoutPage />} />
+          <Route path="/payment" element={<Payment />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
 
